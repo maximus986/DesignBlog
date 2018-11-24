@@ -382,6 +382,113 @@ button:focus {
     text-overflow: ellipsis;
 }
 
+
+/*Single news start*/
+
+.single-news{
+    padding: 0 0 30px;
+    border-bottom: 1px dotted #9a9a9a;
+}
+
+.single-news .single-news-content h1,
+.single-news .single-news-content h2,
+.single-news .single-news-content h3,
+.single-news .single-news-content h4,
+.single-news .single-news-content h5,
+.single-news .single-news-content h6{
+    font-family: 'ArialMT';
+    color: #252525;
+    letter-spacing: 1px;
+}
+
+.single-news .single-news-content h4 {
+    font-size: 1.5rem;
+}
+
+.single-news-content ul {
+    list-style-type: none;
+}
+
+.single-news-content ul li:before {
+    content: ' ';
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url('assets/puzzle.jpg') no-repeat center;
+    background-size: contain;
+    margin-right: 5px;
+}
+
+.single-news-content blockquote {
+    background: #EFEFEF;
+    font-family: 'Arial-ItalicMT';
+    padding: 20px 20px 20px 50px;
+    width: 90%;
+    margin: 0 auto 15px;
+    color:#8B8A8A;
+    position: relative;
+}
+
+.single-news-content blockquote:before {
+    content: '“';
+    font-family: 'ArialMT';
+    color:#fff;
+    font-size: 120px;
+    position: absolute;
+    top:-35px;
+    left: 5px;
+}
+
+.comments .comments-item {
+    border:1px solid rgba(213,213,213,0.54);
+    background: #f8f8f8;
+}
+
+.comments .comments-item:nth-of-type(even){
+    background: white;
+}
+
+.comments .comments-item .comments-author {
+    flex-basis: 30%;
+    max-width: 30%;
+}
+
+.comments .comments-item .comments-content {
+    flex-basis: 70%;
+    max-width: 70%;
+}
+
+.comments .comments-author-name{
+    font-family: 'Arial-BoldMT';
+    color:#515151;
+}
+
+.add-comment {
+    border:1px solid rgba(213,213,213,0.54);
+    background: #f8f8f8;
+}
+
+.add-comment .add-comment-form .form-control {
+    border-radius: 0;
+    background: #fff;
+    color: #B5B5B5; 
+}
+
+.add-comment .add-comment-form .form-control::placeholder {
+    color: #B5B5B5; 
+}
+
+.add-comment .add-comment-form .form-group {
+    margin-bottom: 15px !important; 
+}
+
+.add-comment .add-comment-form button {
+   border-radius: 0;
+   font-family: 'Arial-BoldMT';
+   font-size: 1.1rem;
+}
+
+
 /*---------------------------------------
 --------------FOOTER STYLE---------------
 ----------------------------------------*/
@@ -405,7 +512,8 @@ button:focus {
     font-family: 'Arial-BoldMT';
 }
 
-.main-footer li a:hover {
+.main-footer li a:hover,
+.main-footer li:hover {
     padding-left: 5px;
 }
 
@@ -414,3 +522,6 @@ button:focus {
     font-family: 'Arial-BoldMT';
 }
 
+.main-footer .footer-about p {
+    line-height: 1.1;
+}

@@ -2,7 +2,15 @@
 
 
 @media(min-width:576px) {
+    .comments .comments-item .comments-author {
+        flex-basis: 20%;
+        max-width: 20%;
+    }
     
+    .comments .comments-item .comments-content {
+        flex-basis: 80%;
+        max-width: 80%;
+    }
     
     
     
@@ -42,7 +50,8 @@
         padding: 40px 0 24px !important;
     }
 
-    .news .news-item figure {
+    .news .news-item figure,
+    .single-news figure {
         margin-bottom: 31px !important;
     }
 }
