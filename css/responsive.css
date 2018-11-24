@@ -52,7 +52,10 @@
     .container {
         max-width: 947px;
     }
-
+    
+    .main-footer .footer-about p {
+        line-height: 1.1;
+    }
 }
 
 

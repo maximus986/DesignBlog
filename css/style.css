@@ -382,4 +382,35 @@ button:focus {
     text-overflow: ellipsis;
 }
 
+/*---------------------------------------
+--------------FOOTER STYLE---------------
+----------------------------------------*/
+
+.main-footer {
+    border-top: 1px dotted #7E7E7E;
+}
+
+.main-footer li a,
+.main-footer li {
+    color: #6D6D6D;
+    font-size: 1.23rem;
+    line-height: 1.53rem;
+    margin-bottom: 5px;
+    transition: 0.3s linear;
+}
+
+.main-footer li:first-of-type a,
+.main-footer li:first-of-type {
+    color: #4d4d4d;
+    font-family: 'Arial-BoldMT';
+}
+
+.main-footer li a:hover {
+    padding-left: 5px;
+}
+
+.main-footer .footer-about h5 {
+    color: #6D6D6D;
+    font-family: 'Arial-BoldMT';
+}
 
