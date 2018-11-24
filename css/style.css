@@ -37,6 +37,11 @@ h1,h2,h3,h4,h5,h6,
     font-family: 'MuseoSlab-500';
 }
 
+a, 
+a:hover {
+    text-decoration: none;
+}
+
 .w-85 {
     width: 85%;
 }
@@ -221,7 +226,6 @@ button:focus {
 
 .news-header h2 a {
     color: #000;
-    text-decoration: none;
 }
 
 .news-header p.small {
@@ -271,7 +275,6 @@ button:focus {
     background: #616161;
     display: inline-block;
     position: relative;
-    text-decoration: none;
     transition: 0.1s linear;
 }
 
@@ -295,7 +298,6 @@ button:focus {
 
 .news-navigation a {
     color: #4D4D4D;
-    text-decoration: none;
     font-size: 16px;   
     font-family: 'Arial-BoldMT';
     transition: 0.1s ease;
@@ -313,3 +315,71 @@ button:focus {
     color: #000;
     text-shadow: 0 0 2px #4d4d4d;
 }
+
+/*---------------------------------------
+--------------SIDEBAR STYLE--------------
+----------------------------------------*/
+
+.sidebar {
+    border-left: 1px dotted #7E7E7E;
+}
+
+.social a {
+    color: #000;
+    font-size: 32px;
+    transition: 0.8s ease;
+}
+
+.social a:hover {
+    transform: rotate(360deg);
+}
+
+.search-form .form-control {
+    background: #F7F7F7;
+    border-radius: 0;
+    font-family: 'ArialMT';
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #F7F7F7;
+    border-color: #7E7E7E;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #7E7E7E;
+}
+
+.search-form .form-control::placeholder {
+    color: #B6B6B6;
+    font-size: 1rem;
+}
+
+.top.articles .top-articles-item .w-75 a {
+    display: block;
+    line-height: 1.5rem;
+    max-height: 3rem;
+    overflow: hidden;
+    padding-left: 5px;
+}
+
+.recent-comments p{
+    font-size: 12px;
+    border-top:1px solid #ccc;
+}
+
+.recent-comments p:last-of-type{
+    border-bottom: 1px solid #ccc;
+}
+
+.recent-comments a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recent-comment-item span.w-75{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
