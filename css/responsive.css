@@ -12,6 +12,12 @@
 
 
 @media(min-width:768px) {
+
+    h2, 
+    .h2 {
+    font-size: 2.8rem;
+    }
+
     .navbar-light .navbar-nav .nav-item .nav-link {
         border-bottom: none;
         border-right: 1px solid #7E7E7E;
@@ -30,6 +36,14 @@
 
     .hamburger {
         display: none;
+    }
+
+    .main-content {
+        padding: 40px 0 24px !important;
+    }
+
+    .news .news-item figure {
+        margin-bottom: 31px !important;
     }
 }
 
